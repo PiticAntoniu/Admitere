@@ -120,4 +120,7 @@
   <data name="defaultConfigFile" xml:space="preserve">
     <value>config.json</value>
   </data>
+  <data name="mockDataFile" xml:space="preserve">
+    <value>mockData.json</value>
+  </data>
 </root>

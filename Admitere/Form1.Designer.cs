@@ -31,7 +31,7 @@
             this.loadButton = new System.Windows.Forms.Button();
             this.generateButton = new System.Windows.Forms.Button();
             this.numberOfSubjectsNumericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.inputTestOpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.numberOfSubjectsNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,9 +68,10 @@
             0});
             this.numberOfSubjectsNumericUpDown.ValueChanged += new System.EventHandler(this.numberOfSubjectsNumericUpDown_ValueChanged);
             // 
-            // openFileDialog1
+            // inputTestOpenFileDialog
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            this.inputTestOpenFileDialog.Filter = "doc files (*.doc)|*.doc|docx files (*.docx)|*.docx";
+            this.inputTestOpenFileDialog.FilterIndex = 2;
             // 
             // mainForm
             // 
@@ -93,7 +94,7 @@
         private System.Windows.Forms.Button loadButton;
         private System.Windows.Forms.Button generateButton;
         private System.Windows.Forms.NumericUpDown numberOfSubjectsNumericUpDown;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.OpenFileDialog inputTestOpenFileDialog;
     }
 }
 

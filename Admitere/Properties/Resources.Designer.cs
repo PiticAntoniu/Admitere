@@ -68,5 +68,14 @@ namespace Admitere.Properties {
                 return ResourceManager.GetString("defaultConfigFile", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to mockData.json.
+        /// </summary>
+        internal static string mockDataFile {
+            get {
+                return ResourceManager.GetString("mockDataFile", resourceCulture);
+            }
+        }
     }
 }
